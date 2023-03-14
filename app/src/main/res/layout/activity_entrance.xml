@@ -10,13 +10,40 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:layout_marginBottom="30dp"
             android:textSize="30sp"
             android:textColor="@color/black"
             android:text="כניסה" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="בצע כניסה"
+            android:textSize="30sp"
+            android:textColor="#F32112"
+            android:id="@+id/tvEntrance1"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="-100dp"
+                android:text="תאריך"
+                android:id="@+id/btnDate"
+                android:layout_margin="30dp"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
