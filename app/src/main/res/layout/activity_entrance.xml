@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="בצע כניסה"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:textColor="#F32112"
             android:id="@+id/tvEntrance1"
             android:gravity="center"
@@ -38,11 +38,43 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="-100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#DD7E7E"
                 android:text="תאריך"
                 android:id="@+id/btnDate"
-                android:layout_margin="30dp"
+                android:layout_margin="25dp"
                 android:textSize="30sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DD7E7E"
+                android:text="שעה"
+                android:id="@+id/btnTime"
+                android:layout_margin="25dp"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFEB3B"
+                android:text="בצע כניסה"
+                android:id="@+id/btnToStart"
+                android:layout_margin="30dp"
+                android:textSize="35sp"/>
 
         </LinearLayout>
     </LinearLayout>
