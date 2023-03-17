@@ -77,5 +77,20 @@
                 android:textSize="35sp"/>
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFEB3B"
+                android:text="00:00:00"
+                android:id="@+id/tvDisplyTime"
+                android:layout_margin="30dp"
+                android:textSize="45sp"/>
+
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
